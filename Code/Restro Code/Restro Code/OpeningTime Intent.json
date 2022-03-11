@@ -1,0 +1,160 @@
+{
+  "id": "0b2d4d9d-5c41-4336-96c3-79181388e197",
+  "name": "OpeningTime Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-period",
+          "dataType": "@sys.date-period",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-period",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sun-Thurs: 11:15am - 10:00pm\nFri: 11:15am - 2:30pm\nSaturday Closed."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When do you close?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e98ff1b7-ffb8-4c01-9755-99714c148e34",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are you open ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90c303cf-60f7-4bd6-8167-991b9114c8c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What time do you open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2373dc9c-f781-4607-b0f8-a3c357932ab8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do you deliver food on ",
+          "userDefined": false
+        },
+        {
+          "text": "Weekends",
+          "userDefined": false,
+          "alias": "date-period",
+          "meta": "@sys.date-period"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe7c2f8d-da40-4c78-adc2-54c38fda2d15",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When can I make an order?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0475d5da-bc62-43da-a7fc-fdce445146b7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What timeslot do you take order?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5739e1a-3034-44e1-b474-6cc13a557f5d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

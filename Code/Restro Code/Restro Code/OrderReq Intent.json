@@ -1,0 +1,89 @@
+{
+  "id": "20527b33-c1c9-446d-95bf-72d99d9e402e",
+  "name": "OrderReq Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Delivery area within 6-8 KM, with minimum order of ₹200 plus ₹30 charge for all deliveries."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How much does the delivery charges?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "83b72111-369a-424d-b04b-1b80ce4690f4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the minimum delivery cost?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "03dc9664-34bd-4701-9263-cfb74cd44ebb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What distance do you cover?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eed35065-29d7-4b60-bdda-7a1a52df1532",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the criteria to make an order?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "af63c8b8-4fbf-4a0a-b11b-ccc57a7e35c8",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,174 @@
+{
+  "id": "627b0903-bb84-420e-acc6-bbd4d45bef4e",
+  "name": "Order_food",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "food",
+          "dataType": "@food",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$food",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Your order of $number $food has been placed. The delivery will arrive shortly! Anything else?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Murgh Angara",
+          "userDefined": false,
+          "alias": "food",
+          "meta": "@food"
+        }
+      ],
+      "count": 0,
+      "id": "7e84bc2b-5e42-4b5b-8e1a-215f8d1aaf29",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How about ",
+          "userDefined": false
+        },
+        {
+          "text": "Veg Seekh Kebab",
+          "userDefined": false,
+          "alias": "food",
+          "meta": "@food"
+        }
+      ],
+      "count": 0,
+      "id": "87125ee2-09a8-4358-98b6-c793f45bb85a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I would like to order ",
+          "userDefined": false
+        },
+        {
+          "text": "Paneer Tikka Lajawab",
+          "userDefined": false,
+          "alias": "food",
+          "meta": "@food"
+        }
+      ],
+      "count": 0,
+      "id": "bafd22b0-6161-4116-a8cb-24245b8707fe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Fish Tikka",
+          "userDefined": false,
+          "alias": "food",
+          "meta": "@food"
+        },
+        {
+          "text": " please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "002af939-59b4-451f-900d-e72ad002fbef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I would like ",
+          "userDefined": false
+        },
+        {
+          "text": "1",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Tandoori Jhinga",
+          "userDefined": false,
+          "alias": "food",
+          "meta": "@food"
+        }
+      ],
+      "count": 0,
+      "id": "76caf0c4-8ea7-4f24-8059-c7fef526ae97",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

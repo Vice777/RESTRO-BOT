@@ -1,0 +1,132 @@
+{
+  "id": "a081c74b-45c6-4bbd-80ec-a11f9c0a68bb",
+  "name": "UserThanks Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Happy to be of service.",
+            "Thank you for using Restro. We hope you have a pleasant day!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nice!!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eed6fa86-bc7b-4bd5-a372-b0d7bdf85ab3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "well thanks a lot",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "10e991df-5394-4e1b-94d2-1f6e75d470ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3fe9be67-d4c4-4fac-9f21-8c09ae7b6ec8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thanks ",
+          "userDefined": false
+        },
+        {
+          "text": "a ton",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "4e44a960-3791-4f3d-9470-1a3b7cd614ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thanks btw",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab7b433f-fcbc-4286-8ae7-ff2e8d753a58",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thanks a lot!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8ca0b314-0d46-460c-9089-7fd84be3bc58",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Oh ok, thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee88556b-5536-47fe-8d34-dd71153f4685",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

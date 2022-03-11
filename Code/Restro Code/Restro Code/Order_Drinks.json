@@ -1,0 +1,170 @@
+{
+  "id": "62dd5f80-8992-4178-8b09-5a6b0dcf1ff6",
+  "name": "Order_Drinks",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "drinks",
+          "dataType": "@drinks",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$drinks",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Your order for $number $drinks has been placed. The delivery will arrive shortly! Anything else?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my order is ",
+          "userDefined": false
+        },
+        {
+          "text": "fresh Juice",
+          "userDefined": false,
+          "alias": "drinks",
+          "meta": "@drinks"
+        }
+      ],
+      "count": 0,
+      "id": "3e225f28-4dfd-45f9-b964-d093bbd3ebd5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How about ",
+          "userDefined": false
+        },
+        {
+          "text": "1",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Mojito",
+          "userDefined": false,
+          "alias": "drinks",
+          "meta": "@drinks"
+        }
+      ],
+      "count": 0,
+      "id": "ab8fa9e5-d712-4f0b-a077-3412ff54a8f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Fruit Punch",
+          "userDefined": false,
+          "alias": "drinks",
+          "meta": "@drinks"
+        }
+      ],
+      "count": 0,
+      "id": "5556c32b-e859-47de-a725-d96102fec7f4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I would like to order ",
+          "userDefined": false
+        },
+        {
+          "text": "2",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Sodas",
+          "userDefined": false,
+          "alias": "drinks",
+          "meta": "@drinks"
+        }
+      ],
+      "count": 0,
+      "id": "30c75c39-b56a-41a9-8421-dcaef5dd95d6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tea",
+          "userDefined": false,
+          "alias": "drinks",
+          "meta": "@drinks"
+        }
+      ],
+      "count": 0,
+      "id": "3cd8978f-e375-4488-b2e8-c3e507e44d11",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,92 @@
+{
+  "id": "1b07ada8-d683-495f-a561-52ab0312e9ae",
+  "name": "Beverages Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Here is Beverages Menu:"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://ssnegi23.github.io/Group-26-AI-CHATBOT-WEBSITE/WEBSITE/images/Drinks%20&%20Mocktail.jpg",
+                  "accessibilityText": "MBD Image",
+                  "type": "image"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Anything to drink?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "73d1cc56-2cdb-41b9-b37a-89b2843c29a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is in the drinks?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "159f3664-3996-4a58-bb35-36e9e6096be5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Beverages",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5acba96e-0683-4d19-a694-560a90dd7c66",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

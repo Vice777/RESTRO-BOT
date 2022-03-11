@@ -1,0 +1,101 @@
+{
+  "id": "4c150896-bcea-4f44-92e3-369ed22b03df",
+  "name": "Menu Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Here is the Menu:"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Non-Vegetarian"
+                    },
+                    {
+                      "text": "Vegetarian"
+                    },
+                    {
+                      "text": "Beverages"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What food can i order?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f62da834-1195-4c64-b11d-3f7087e76214",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is on the menu?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b24be8ce-7c8e-41fb-9d44-8bae23aaee2e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I see the Menu?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4fec071-bcda-437a-9dd2-d24c0395228e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

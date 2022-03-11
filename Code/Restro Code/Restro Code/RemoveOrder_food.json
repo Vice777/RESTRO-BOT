@@ -1,0 +1,164 @@
+{
+  "id": "38009b6a-ad64-4040-9820-9dbb7d870784",
+  "name": "RemoveOrder_food",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "food",
+          "dataType": "@food",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$food",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Your order of $number $food has been cancelled successfully."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Cancel my order of ",
+          "userDefined": false
+        },
+        {
+          "text": "3",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Anaari Aloo",
+          "userDefined": false,
+          "alias": "food",
+          "meta": "@food"
+        }
+      ],
+      "count": 0,
+      "id": "fb3d61f3-f7bb-46a9-b08b-342a0fe8c7c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I do not want to order ",
+          "userDefined": false
+        },
+        {
+          "text": "1",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Fish Tikka",
+          "userDefined": false,
+          "alias": "food",
+          "meta": "@food"
+        }
+      ],
+      "count": 0,
+      "id": "14e57dae-1538-4550-bc8e-2136ef06b4bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Remove ",
+          "userDefined": false
+        },
+        {
+          "text": "Shami Kebab",
+          "userDefined": false,
+          "alias": "food",
+          "meta": "@food"
+        },
+        {
+          "text": " from the order.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "299d8a73-7ad4-4fab-99f1-b2b02873ec00",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't want to order ",
+          "userDefined": false
+        },
+        {
+          "text": "Tandoori Jhinga",
+          "userDefined": false,
+          "alias": "food",
+          "meta": "@food"
+        }
+      ],
+      "count": 0,
+      "id": "385b364e-6d8e-4296-a70a-72db00e34f94",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

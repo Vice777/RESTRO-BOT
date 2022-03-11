@@ -1,0 +1,92 @@
+{
+  "id": "a5835096-2c08-4b34-bccf-591b566b7177",
+  "name": "Veg Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Here is Veg Menu:"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "image",
+                  "rawUrl": "https://ssnegi23.github.io/Group-26-AI-CHATBOT-WEBSITE/WEBSITE/images/Vegetarian.jpg",
+                  "accessibilityText": "MBD Image"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is in Veg?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "350f6600-e300-4020-ac44-6c496664a04b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Any Veg food?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "682f849f-72d1-43e5-8291-83388cc77386",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Vegetarian",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6ee8dbb-239c-47f4-bc67-7f56cc8516a4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

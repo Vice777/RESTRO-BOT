@@ -1,0 +1,184 @@
+{
+  "id": "56f99096-93d1-4c8e-9687-36e5ca069ef0",
+  "name": "RemoveOrder_drinks",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "drinks",
+          "dataType": "@drinks",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$drinks",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Your order of $number $drinks has been cancelled successfully."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't want to order ",
+          "userDefined": false
+        },
+        {
+          "text": "2",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Mock Champagne",
+          "userDefined": false,
+          "alias": "drinks",
+          "meta": "@drinks"
+        }
+      ],
+      "count": 0,
+      "id": "55cca9dc-a512-438d-8b4c-1c660f5b2b3d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Remove ",
+          "userDefined": false
+        },
+        {
+          "text": "1",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Dewan-E-Khas",
+          "userDefined": false,
+          "alias": "drinks",
+          "meta": "@drinks"
+        },
+        {
+          "text": " from the order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d301966c-b366-443b-a89f-9a9d318de680",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Cancel my order of ",
+          "userDefined": false
+        },
+        {
+          "text": "2",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Iced Tea",
+          "userDefined": false,
+          "alias": "drinks",
+          "meta": "@drinks"
+        }
+      ],
+      "count": 0,
+      "id": "453b1025-f35e-4042-88b5-37376ca45953",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I do not want to order ",
+          "userDefined": false
+        },
+        {
+          "text": "1",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "milk shake",
+          "userDefined": false,
+          "alias": "drinks",
+          "meta": "@drinks"
+        }
+      ],
+      "count": 0,
+      "id": "c9530e78-8d31-403d-867b-f978a2d33c9a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
